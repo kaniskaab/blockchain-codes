@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myaddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/new_file.sol": "addrCon"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/new_file.sol": {
+			"keccak256": "0x095b86400c77eb8869a664e27707d89be9a6df373e641780b8358b7d84551917",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fbeda5dfa085527c8e7524bc817291e7bd2c7eeeba64887d4b7cdc79a7ac9dbe",
+				"dweb:/ipfs/QmcuYMorgVrqM3h3onMhUZT5cR2tC91tz1DKPQEEXkfJLS"
+			]
+		}
+	},
+	"version": 1
+}
